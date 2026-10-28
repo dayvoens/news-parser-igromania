@@ -2,7 +2,7 @@ import requests
 import xml.etree.ElementTree as ET
 import sqlite3
 
-conn = sqlite3.connect(r"F:\Python\parsers\newsParser\news.db")
+conn = sqlite3.connect(r"news.db")
 cursor = conn.cursor()
 
 cursor.execute("""
