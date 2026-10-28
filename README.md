@@ -19,7 +19,7 @@
 
 1. Клонируйте репозиторий:
    ```bash
-   git clone https://github.com/твой_юзернейм/название_репозитория.git
+   git clone https://github.com/dayvoens/news-parser-igromania.git
 
 2. Создайте файл .env в корне проекта и добавьте туда токен вашего бота:
    ```bash
