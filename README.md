@@ -21,14 +21,18 @@
    ```bash
    git clone https://github.com/dayvoens/news-parser-igromania.git
 
-2. Создайте файл .env в корне проекта и добавьте туда токен вашего бота:
+2. Зависимости:
+   ```bash
+   pip install -r requirements.txt
+
+3. Создайте файл .env в корне проекта и добавьте туда токен вашего бота:
    ```bash
    BOT_TOKEN=ваш_токен_из_BotFather
 
-3. Запустите парсер для первоначального наполнения базы данных:
+4. Запустите парсер для первоначального наполнения базы данных:
    ```bash
    python gamesnews.py
 
-4. Запустите Telegram-бота:
+5. Запустите Telegram-бота:
    ```bash
    python bot.py
