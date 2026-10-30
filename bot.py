@@ -38,7 +38,7 @@ main_keyboard = ReplyKeyboardMarkup(
 async def cmd_start(message: types.Message):
     await message.answer(
         f'Привет, {message.from_user.full_name}! 🤖\n'
-        'Я бот игровых новостей iXBT. Скоро я научусь отдавать тебе статьи из базы данных!',
+        'Я бот игровых новостей Игромании. Нажми «🔄 Обновить новости» или отправь /news!',
         reply_markup=main_keyboard
     )
 
